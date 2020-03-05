@@ -1,3 +1,7 @@
+1. [目录1](#jump1) 2. [目录2](#jump2) ---
+
+   
+
 # VUE2.0项目搭建步骤
 
 ### 一、搭建脚手架
@@ -45,6 +49,10 @@ export default new VueRouter({
 })
 
 ```
+
+<span id="jump1">目录1</span> 
+
+<span id="jump2">目录2</span>
 
 4、注册路由：在main.js中注册路由
 
