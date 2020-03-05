@@ -2,7 +2,19 @@
 
    
 
-# VUE2.0项目搭建步骤
+   
+
+#  目录
+
+1.[VUE2.0项目搭建步骤](#v2)
+
+2.[VUE4.0脚手架搭建](#v4)
+
+3.[vuex项目总结](#vuex)
+
+4.[vue项目所遇问题总结](#vue)
+
+# <span id="v2">VUE2.0项目搭建步骤</span>
 
 ### 一、搭建脚手架
 
@@ -49,10 +61,6 @@ export default new VueRouter({
 })
 
 ```
-
-<span id="jump1">目录1</span> 
-
-<span id="jump2">目录2</span>
 
 4、注册路由：在main.js中注册路由
 
@@ -108,7 +116,7 @@ store文件夹://index.js、state.js、getters.js、mutations.js、actions.js、
 
 3、在main.js中注册vuex 即仓库store
 
-# VUE4.0脚手架搭建
+# <span id="v4">VUE4.0脚手架搭建</span>
 
 ### 一、下载4.0脚手架
 
@@ -176,7 +184,7 @@ module.exports={
 
 
 
-# vuex项目总结
+# <span id="vuex">vuex项目总结</span>
 
 项目中的总结：
 
@@ -192,7 +200,7 @@ module.exports={
 >
 > 5、只有action接收的默认参数是与store实例有相同方法和属性的对象，其他都是会接收到一个state。
 
-# vue项目所遇问题总结
+# <span id="vue">vue项目所遇问题总结</span>
 
 ### 1、在匿名函数中修改外部变量
 
